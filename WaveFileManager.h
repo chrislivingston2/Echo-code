@@ -5,7 +5,10 @@
 static const float MAX_16BIT = 32768.0f;
 
 #include <iostream>
-
+#include <fstream>
+#include <utility>  
+#include <vector>
+#include <algorithm>
 class WaveFileManager{
 
 private:
